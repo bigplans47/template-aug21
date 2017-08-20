@@ -1,3 +1,10 @@
+# Epicodus .pairs setup#
+  al: Ada Lovelace
+  edlf: Enrique de la Fuente
+email:
+  al: adanator@me.com
+  edlf: queenrique@gmail.com
+
 # _{Application Name}_
 
 #### _{Brief description of application}, {Date of current version}_

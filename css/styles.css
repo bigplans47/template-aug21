@@ -1,0 +1,10 @@
+#showDestination {
+  display: none;
+}
+.hiddenOutput {
+  cursor: pointer;
+  color #0088cc;
+}
+.hiddenOutput:hover {
+  text-decoration: underline;
+}

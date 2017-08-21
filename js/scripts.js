@@ -21,13 +21,19 @@ $(document).ready(function() {
     var outputPlace = new Place(name, temperature, color);
     // alert(outputPlace);
     // $("#destinationTotal").text(outputPlace.name);
-    $("#destinationTotal").append("<li>"+outputPlace.name+"</li>");
+    $("#destinationTotal").append("<li><span class='hiddenOutput'>" +outputPlace.name+"</span></li>");
     console.log(outputPlace);
     $("input#name").val("");
     $("input#temperature").val("");
     $("input#color").val("");
     //3 lines above are used to make boxes blank again for user input
-
+    $(".hiddenOutput").last().click(function() {
+      $("#showDestination").show();
+      $("#showDestination h2").text(outputPlace.name);
+      $(".name2").text(outputPlace.name);
+      $(".temperature2").text(outputPlace.temperature);
+      $(".color2").text(outputPlace.color);
+    });
 
   });
 });

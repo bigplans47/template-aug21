@@ -1,10 +1,3 @@
-# Epicodus .pairs setup#
-  al: Ada Lovelace
-  edlf: Enrique de la Fuente
-email:
-  al: adanator@me.com
-  edlf: queenrique@gmail.com
-
 # _{Application Name}_
 
 #### _{Brief description of application}, {Date of current version}_
@@ -41,4 +34,12 @@ _{Tell me about the languages and tools you used to create this app. Assume that
 
 *{Determine the license under which this application can be used.  See below for more details on licensing.}*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2017 **_{List of contributors or company name}_**
+
+# Epicodus .pairs setup#
+pairs:
+  dk: Dan Kiss
+  yi: your initials
+email:
+  dk: bigplans47@gmail.com
+  yi: change-your-initial-on-the-left-of-this-row@gmail.com
